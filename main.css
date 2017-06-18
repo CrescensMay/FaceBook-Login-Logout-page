@@ -1,0 +1,118 @@
+body{
+  background: rgba(47, 101, 163, 0.06)/*rgba(65, 133, 182, 0.37)*/;
+}
+#wrapper{
+  width: 100%;
+  margin: auto;
+}
+header{
+  color:#fff;
+  background: rgba(34, 35, 156, 0.88);
+  padding-top:0;
+  height: 100px;
+  width: 100%;
+  line-height: 25px;
+}
+header a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+header ul li{
+  float: left;
+  padding: 5px;
+  /*clear: right;*/
+}
+header ul:first-of-type{
+  position: relative;
+  bottom: 4.5em;
+  margin-left: 40em;
+}
+.log-in{
+  margin-top: 2em;
+  margin-left: .5em;
+  color: #fff;
+  background: rgb(34, 35, 156);
+  border-radius: 5px;
+  font-size: 13px;
+}
+#container ul li{
+  float: left;
+  width: 45%;
+  margin-left: 2.5%;
+}
+#container{
+  padding-top:0;
+  clear: both;
+  /*display: flex;*/
+}
+.first{
+  position: relative;
+  left: 4em;
+  /*flex-grow:2;*/
+
+}
+.second {
+  margin-top: 0;
+  line-height: 2em;
+  padding-left: 25px;
+  /*flex: 1;*/
+}
+.second h1{
+  margin-top:0;
+  position: relative;
+  bottom: 17px;
+}
+.second button:last-of-type{
+  background: rgb(73, 116, 90);
+  font-size: 20px;
+  border-radius: 7px;
+  color:#fff;
+  height: 2em;
+  width: 10em;
+}
+.one{
+  margin-left: 20px;
+}
+.pone,.ptwo,.pthree{
+  padding-left: 3.5em;
+  position: relative;
+  bottom: 3.5em;
+  /*width: 50%;*/
+}
+.gender{
+  padding-top: 0;
+  position: relative;
+  /*bottom: 1em;*/
+}
+.info{
+  width: 21.7em;
+  /*height:30px;*/
+  /*line-height: 10px;*/
+}
+.info-form{
+  position: relative;
+  bottom: 1.3em;
+}
+.second input:nth-child(n+1){
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.second p:nth-last-child(n+2){
+  font-size: 15px;
+}
+
+.container a{
+  color: red;
+}
+footer{
+text-align: center;
+font-size: 17px;
+font-style: italic;
+}
